@@ -1,19 +1,14 @@
-.skill {
+.block {
     width: 250px;
     background-color: #ccb88c;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-
 }
 
-.icon {
+.photo {
     height: 60px;
     width: 60px;
     background-color: #ccb88c;
-}
-
-.description {
-
 }

@@ -1,20 +1,15 @@
-.skillBlock {
+.project {
     height: 100vh;
-    background-color: #c22647;
-}
-
-.skillContainer {
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-
-}
-
-.title {
     background-color: #ccb88c;
 }
 
-.skills {
+.projectContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.myProject {
     border: 1px solid;
     width: 100%;
     display: flex;
