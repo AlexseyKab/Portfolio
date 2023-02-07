@@ -1,6 +1,6 @@
 .project {
-
-    background-color: rgba(26, 196, 196, 0.73);
+    padding: 100px 0;
+    background-color: #1f1f20;
 }
 
 .projectContainer {
@@ -9,19 +9,16 @@
     flex-wrap: nowrap;
 }
 
-.title {
-    background-color: rgba(41, 211, 211, 0.73);
-}
-
 .myProject {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 30px;
+    align-items: flex-start;
 }
 
-@media screen and (max-width: 1129px){
+@media screen and (max-width: 1129px) {
     .myProject {
         justify-content: center;
     }

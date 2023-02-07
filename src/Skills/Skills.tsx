@@ -2,12 +2,13 @@ import React from 'react';
 import style from './Skills.module.css'
 import styleContainer from '../common/Styles/Container.module.css'
 import {Skill} from "./Skill/Skill";
+import {Title} from "../common/Components/Title/Title";
 
 export const Skills = () => {
     return (
         <div className={style.skillBlock}>
             <div className={`${styleContainer.container} ${style.skillContainer}`}>
-                <h2 className={style.title}>Skills</h2>
+                <Title title={'Skills'}/>
                 <div className={style.skills}>
                     <Skill title={'HTML'} description={'Can write simple and complex websites in HTML'}/>
                     <Skill title={'CSS'} description={'Impeccably using Cascading Style Sheets to make your website or app look great'}/>
